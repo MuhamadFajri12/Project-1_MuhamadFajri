@@ -1,0 +1,11 @@
+CRITICAL - 2024-06-20 13:27:18 --> ErrorException: Undefined variable $dara
+[Method: GET, Route: tasks]
+in APPPATH\Controllers\TaskController.php on line 14.
+ 1 APPPATH\Controllers\TaskController.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dara', 'C:\\xampp\\htdocs\\project 1\\app\\Controllers\\TaskController.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\TaskController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\project 1\\public\\index.php')
